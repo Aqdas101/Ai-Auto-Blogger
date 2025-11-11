@@ -40,7 +40,7 @@ function App() {
     try {
       setGenerationLoading(true);
       setError(null);
-      const response = await fetch('https://n8n.fishhook.info/webhook-test/b37093af-efaa-4746-9b83-0e89e03d983e', {
+      const response = await fetch('https://n8n.fishhook.info/webhook/b37093af-efaa-4746-9b83-0e89e03d983e', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
